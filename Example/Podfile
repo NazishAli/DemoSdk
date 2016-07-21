@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIBasedSdk_Example' do
+  pod 'UIBasedSdk', :path => '../'
+
+  target 'UIBasedSdk_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
