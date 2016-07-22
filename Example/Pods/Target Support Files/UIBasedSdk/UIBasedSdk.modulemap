@@ -1,0 +1,6 @@
+framework module UIBasedSdk {
+  umbrella header "UIBasedSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
