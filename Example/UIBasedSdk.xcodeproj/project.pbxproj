@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		715C72589B28599FD1F0521B /* Pods_UIBasedSdk_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB3AAEE6CE8E1C606AE7DE2 /* Pods_UIBasedSdk_Tests.framework */; };
 		7B79BE936C3B8DD85CE7C479 /* Pods_UIBasedSdk_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8278C8CE7CAF813A374E4EBE /* Pods_UIBasedSdk_Example.framework */; };
+		7EDA418D1D41FB6F00A7F6D9 /* HelpDeskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA418C1D41FB6F00A7F6D9 /* HelpDeskViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6EAA1F9142D3DDDDD158A3BB /* Pods-UIBasedSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBasedSdk_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBasedSdk_Example/Pods-UIBasedSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7EDA418B1D41FB6F00A7F6D9 /* HelpDeskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpDeskViewController.h; sourceTree = "<group>"; };
+		7EDA418C1D41FB6F00A7F6D9 /* HelpDeskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpDeskViewController.m; sourceTree = "<group>"; };
 		8278C8CE7CAF813A374E4EBE /* Pods_UIBasedSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIBasedSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8FF138D9FD80796D8EBD7734 /* Pods-UIBasedSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBasedSdk_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIBasedSdk_Example/Pods-UIBasedSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 		6003F593195388D20070C39A /* Example for UIBasedSdk */ = {
 			isa = PBXGroup;
 			children = (
+				7EDA418B1D41FB6F00A7F6D9 /* HelpDeskViewController.h */,
+				7EDA418C1D41FB6F00A7F6D9 /* HelpDeskViewController.m */,
 				6003F59C195388D20070C39A /* UISdkAppDelegate.h */,
 				6003F59D195388D20070C39A /* UISdkAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -392,6 +397,7 @@
 			files = (
 				6003F59E195388D20070C39A /* UISdkAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* UISdkViewController.m in Sources */,
+				7EDA418D1D41FB6F00A7F6D9 /* HelpDeskViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
