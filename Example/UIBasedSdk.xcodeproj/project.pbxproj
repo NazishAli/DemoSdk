@@ -58,7 +58,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6EAA1F9142D3DDDDD158A3BB /* Pods-UIBasedSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBasedSdk_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBasedSdk_Example/Pods-UIBasedSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7E570B7B1D45FFC60074AAB1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../UIBasedSdk/Classes/Header.h; sourceTree = "<group>"; };
 		7EDA418B1D41FB6F00A7F6D9 /* HelpDeskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpDeskViewController.h; sourceTree = "<group>"; };
 		7EDA418C1D41FB6F00A7F6D9 /* HelpDeskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpDeskViewController.m; sourceTree = "<group>"; };
 		8278C8CE7CAF813A374E4EBE /* Pods_UIBasedSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIBasedSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				D3D3B56036B924431816F76F /* UIBasedSdk.podspec */,
-				7E570B7B1D45FFC60074AAB1 /* Header.h */,
 				B55A059753FDCAA44F5E4C1B /* README.md */,
 				C98796EB2AEBDE22EE52081E /* LICENSE */,
 			);

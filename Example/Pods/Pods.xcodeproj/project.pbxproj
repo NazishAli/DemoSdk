@@ -23,7 +23,7 @@
 		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */; };
 		7E570B771D45F1140074AAB1 /* DeviceLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E570B751D45F1140074AAB1 /* DeviceLibrary.h */; };
 		7E570B781D45F1140074AAB1 /* DeviceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E570B761D45F1140074AAB1 /* DeviceLibrary.m */; };
-		7E570B7D1D45FFE20074AAB1 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E570B7C1D45FFE20074AAB1 /* Header.h */; };
+		7E570B7F1D4602750074AAB1 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E570B7E1D4602750074AAB1 /* Header.h */; };
 		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9735B65D387E3A9DB924AF3D388FD869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
@@ -89,7 +89,7 @@
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7E570B751D45F1140074AAB1 /* DeviceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceLibrary.h; sourceTree = "<group>"; };
 		7E570B761D45F1140074AAB1 /* DeviceLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceLibrary.m; sourceTree = "<group>"; };
-		7E570B7C1D45FFE20074AAB1 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		7E570B7E1D4602750074AAB1 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		84A46C1BDC53EC9AD156AA901E6C1168 /* Pods-UIBasedSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIBasedSdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 		29AF6C9D903D5AF0784D30C7E36C0589 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E570B7C1D45FFE20074AAB1 /* Header.h */,
+				7E570B7E1D4602750074AAB1 /* Header.h */,
 				7E570B751D45F1140074AAB1 /* DeviceLibrary.h */,
 				7E570B761D45F1140074AAB1 /* DeviceLibrary.m */,
 			);
@@ -374,7 +374,7 @@
 				EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */,
 				61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */,
 				34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */,
-				7E570B7D1D45FFE20074AAB1 /* Header.h in Headers */,
+				7E570B7F1D4602750074AAB1 /* Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
