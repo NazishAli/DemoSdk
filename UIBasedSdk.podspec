@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'UIBasedSdk/**/*'
-  s.vendored_frameworks = 'FrameworkUI.framework'
+  s.vendored_frameworks = 'UIBasedSdk/**/FrameworkUI.framework'
   # s.resource_bundles = {
   #   'UIBasedSdk' => ['UIBasedSdk/Assets/*.png']
   # }
