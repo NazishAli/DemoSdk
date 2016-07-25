@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIBasedSdk'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'This is simple UIbased sdk UIBasedSdk.'
 
 # This description is used to generate tags and improve search results.
